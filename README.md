@@ -1,8 +1,8 @@
 # Sparkchain BOT
 Sparkchain BOT
 
-- Register Here : [Sparkchain](https://sparkchain.ai/register/?r=46808761)
-- Use Code : 46808761
+- Register Here : [Sparkchain](https://sparkchain.ai/login/?r=46677848)
+- Use Code : 46677848
 
 ## Features
 
@@ -27,10 +27,9 @@ Note:
 
 1. **Clone The Repositories:**
    ```bash
-   git clone https://github.com/vonssy/Sparkchain-BOT.git
-   ```
-   ```bash
-   cd Sparkchain-BOT
+   git clone https://github.com/vonssy/Sparkchain.git
+   cd Sparkchain
+   pip install -r requirements.txt #or pip3 install -r requirements.txt
    ```
 
 2. **Install Requirements:**
@@ -40,13 +39,20 @@ Note:
 
 ## Configuration
 
-- **tokens.txt:** You will find the file `tokens.txt` inside the project directory. Make sure `tokens.txt` contains data that matches the format expected by the script. Here are examples of file formats:
+```bash
+nano tokens.txt
+```
+-  Make sure `tokens.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
     your_bearer_token_1
     your_bearer_token_2
   ```
-
-- **proxy.txt:** You will find the file `proxy.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
+  
+## Proxy
+```bash
+nano proxy.txt
+```
+- Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
     ip:port # Default Protcol HTTP.
     protocol://ip:port
@@ -61,12 +67,24 @@ python bot.py #or python3 bot.py
 
 ## Buy Me a Coffee
 
-- **EVM:** 0xe3c9ef9a39e9eb0582e5b147026cae524338521a
-- **TON:** UQBEFv58DC4FUrGqinBB5PAQS7TzXSm5c1Fn6nkiet8kmehB
-- **SOL:** E1xkaJYmAFEj28NPHKhjbf7GcvfdjKdvXju8d8AeSunf
-- **SUI:** 0xa03726ecbbe00b31df6a61d7a59d02a7eedc39fe269532ceab97852a04cf3347
-
-Thank you for visiting this repository, don't forget to contribute in the form of follows and stars.
-If you have questions, find an issue, or have suggestions for improvement, feel free to contact me or open an *issue* in this GitHub repository.
-
-**vonssy**
+- ETH:
+```bash
+0x453908Ef182013f9F2cb4553ee6fe417a7BCcc8a
+```
+- TON:
+```bash
+EQC0lrj3O0af8GotieYsTXChA_wijIIVN7Sd_wkgYLwoH07q
+```
+MEMO - 
+```bash
+4764816707
+```
+- SOL:
+```bash
+7XtrMmE1cBMF4duYRyoWGCvjBsLfipAAetWVu5MFD6aK
+```
+- SUI:
+```bash
+0xf6dae0ea33b7bb7566aa436292ab7688630cce918267398c8f507b0a8669266d
+```
+**D4rkCipherX**
