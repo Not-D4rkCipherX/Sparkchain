@@ -27,7 +27,7 @@ Note:
 
 1. **Clone The Repositories:**
    ```bash
-   git clone https://github.com/vonssy/Sparkchain.git
+   git clone https://github.com/Not-D4rkcipherX/Sparkchain.git
    cd Sparkchain
    pip install -r requirements.txt #or pip3 install -r requirements.txt
    ```
